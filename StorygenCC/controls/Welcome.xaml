@@ -1,0 +1,22 @@
+﻿<UserControl x:Class="StorygenCC.controls.Welcome"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             xmlns:local="clr-namespace:StorygenCC.controls"
+             mc:Ignorable="d" 
+             d:DesignHeight="450" d:DesignWidth="800">
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="70"/>
+            <RowDefinition Height="*"/>
+        </Grid.RowDefinitions>
+
+        <TextBlock Grid.Row="0" Foreground="LightSeaGreen" FontSize="40" FontFamily="Arial" FontWeight="Black" Margin="10, 10, 0, 0">StorygenCC<Span FontWeight="DemiBold" FontSize="10" Foreground="Gray">v1.0</Span></TextBlock>
+        <TextBlock Grid.Row="1" Name="ChangeLog" FontSize="20" FontFamily="Arial" TextWrapping="Wrap">      
+            <Span Foreground="White" FontWeight="Bold">Fresh Update!</Span><LineBreak/>
+            <Span Foreground="Gray" FontWeight="Light" FontSize="12">After some days I finally made to recreate the software using WPF in C#, now i'm looking to add some new features to the project.</Span>
+        </TextBlock>
+
+    </Grid>
+</UserControl>

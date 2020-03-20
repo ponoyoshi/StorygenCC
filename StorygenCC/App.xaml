@@ -4,6 +4,6 @@
              xmlns:local="clr-namespace:StorygenCC"
              StartupUri="MainWindow.xaml">
     <Application.Resources>
-         
+        <ResourceDictionary Source="styles/buttons/StyleButtonOptions.xaml"/>
     </Application.Resources>
 </Application>
